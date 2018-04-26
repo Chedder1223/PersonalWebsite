@@ -18,6 +18,29 @@
       background: red;
       color: white;
     }
+	a
+	{
+		text-decoration: none;
+		color:white;
+	}
+	a:visited
+	{
+		color:white;
+	}
+	a:hover
+	{
+		color:orange;
+	}
+	ul
+	{
+		list-style-type:none
+	}
+	li
+	{
+		margin:10px;
+		position:relative;
+		display:inline-block;
+	}
 	
 	/*Classes*/
 	.ifs
@@ -37,6 +60,14 @@
 		width:50%;
 		background-color:rgba(0,0,0,.5);
 		border-radius:25px;
+	}
+	.navstyle
+	{
+		padding:5px;
+		background-color:rgba(0,0,0,.5);
+		border-radius:25px;
+		width:40%;
+		margin:auto;
 	}
 	
 	/*ID*/
