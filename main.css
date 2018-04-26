@@ -1,0 +1,46 @@
+	/*Main Elements*/
+    body {
+      text-align: center;
+      background: url("TreeBackground.jpg");
+      background-size: cover;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+	
+	/*Classes*/
+	.ifs
+	{
+		/*IFrame Style*/
+		margin:1%;
+		width:100vh;
+		height:75vh; 
+	}
+	.parastyle
+	{
+		/*General Paragraph Style*/
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:20px;
+		margin-bottom:20px;
+		width:50%;
+		background-color:rgba(0,0,0,.5);
+		border-radius:25px;
+	}
+	
+	/*ID*/
+	#profilepic
+	{
+		border-radius:50px;
+	}
